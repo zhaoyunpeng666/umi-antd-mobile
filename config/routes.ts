@@ -3,6 +3,7 @@
  * 更多路由请查询 https://umijs.org/zh-CN/docs/routing
  */
 export default [
+  { path: '/incomeList', component: '@/pages/incomeList/index', layout: false },
   { path: '/', redirect: '/tab-bar/index' },
   {
     path: '/',
