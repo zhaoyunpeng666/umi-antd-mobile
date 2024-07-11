@@ -21,11 +21,8 @@
       align-items: center;
       font-size: 28px;
       border-bottom: 2px solid #f1f1f1;
-      position: fixed;
-      overflow: hidden;
-      z-index: 9999;
-      width: 92%;
-
+      //   position: fixed;
+      //   width: 92%;
       .back {
         width: 100px;
         display: flex;
@@ -34,7 +31,7 @@
       }
 
       .center {
-        //   font-weight: 600;
+        // font-weight: 600;
         font-size: 34px;
         margin-left: 50px;
         color: #000;
@@ -51,11 +48,9 @@
       padding: 10px 30px;
       font-size: 32px;
       color: #000;
-      position: fixed;
-      overflow: hidden;
-      z-index: 999;
-      width: 92%;
-      margin-top: 56px;
+      //   position: fixed;
+      //   width: 92%;
+      margin-top: 20px;
 
       .topWrap,
       .bottomWrap {
@@ -63,11 +58,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
-
-        .left,
-        .right {
-          // font-weight: 600;
-        }
       }
 
       .topWrap {
@@ -76,10 +66,6 @@
     }
 
     .detailWrap {
-      &:first-child {
-        margin-top: 306px;
-      }
-
       margin-top: 20px;
       background: #fff;
       padding: 10px 30px 20px;
@@ -90,6 +76,10 @@
       align-items: center;
       position: relative;
       overflow: hidden; // 触发BFC
+      &:first-child {
+        // margin-top: 306px;
+      }
+
       .leftWrap {
         .topWrap {
           display: flex;
