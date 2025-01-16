@@ -1,24 +1,76 @@
+export const ZYP_INCOME_LIST_2025 = [
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2025-01',
+    income: 14250.5,
+    tax: 242.25,
+  },
+];
+
 export const ZYP_INCOME_LIST_2024 = [
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-12',
+    income: 14250.5,
+    tax: 242.25,
+  },
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-11',
+    income: 14250.5,
+    tax: 242.25,
+  },
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-10',
+    income: 14200.5,
+    tax: 241.4,
+  },
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-09',
+    income: 14250.5,
+    tax: 242.25,
+  },
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-08',
+    income: 14150.5,
+    tax: 240.55,
+  },
+  {
+    type: '正常工资薪金',
+    company: '湖北华付智创技术有限公司',
+    date: '2024-07',
+    income: 14125.5,
+    tax: 240.13,
+  },
   {
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-06',
     income: 14250.5,
-    tax: 809.85,
+    tax: 242.96,
   },
   {
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-05',
     income: 14175.5,
-    tax: 518.46,
+    tax: 240.98,
   },
   {
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-04',
     income: 14250.5,
-    tax: 242.96,
+    tax: 242.25,
   },
   {
     type: '正常工资薪金',

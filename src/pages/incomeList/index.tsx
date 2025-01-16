@@ -4,14 +4,24 @@ import {
   QuestionCircleOutline,
 } from 'antd-mobile-icons';
 import styles from './index.less';
-import { ZYP_INCOME_LIST_2022 } from './income';
+import {
+  ZYP_INCOME_LIST_2025,
+  ZYP_INCOME_LIST_2024,
+  ZYP_INCOME_LIST_2023,
+  ZYP_INCOME_LIST_2022,
+} from './income';
 import { useMemo } from 'react';
 import maxDecimal from '@/utils/maxDecimal';
 
 const Income = () => {
   // const [income, setIncome] = useState(null); // 收入合计
   // const [declaredAmount, setDeclaredAmount] = useState(null); // 已申报税额合计
-  const list = ZYP_INCOME_LIST_2022;
+  const list = [
+    ...ZYP_INCOME_LIST_2025,
+    ...ZYP_INCOME_LIST_2024,
+    ...ZYP_INCOME_LIST_2023,
+    ...ZYP_INCOME_LIST_2022,
+  ];
 
   // 收入合计
   const income = useMemo(() => {
