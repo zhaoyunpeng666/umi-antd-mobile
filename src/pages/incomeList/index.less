@@ -1,28 +1,36 @@
 .income {
   position: relative;
   background: #f6f7fb;
-  height: 100%;
+  height: 100vh; /* 设置为视口高度 */
   letter-spacing: 1px;
+  display: flex; /* 使用 flex 布局 */
+  flex-direction: column;
 
   .body {
     flex: 1;
-    overflow-y: auto;
+    overflow-y: auto; /* 让内容可滚动 */
     padding-bottom: 158px;
 
     &::-webkit-scrollbar {
       display: none;
     }
 
+    .stickyHeader {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 100; /* 提高层级，确保在列表上方 */
+    }
+
     .headerWrap {
       background: #fff;
-      padding: 20px 50px 20px 20px;
+      padding: 20px 40px 20px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-size: 28px;
       border-bottom: 2px solid #f1f1f1;
-      //   position: fixed;
-      //   width: 92%;
+
       .back {
         width: 100px;
         display: flex;
@@ -31,7 +39,6 @@
       }
 
       .center {
-        // font-weight: 600;
         font-size: 34px;
         margin-left: 50px;
         color: #000;
@@ -48,9 +55,30 @@
       padding: 10px 30px;
       font-size: 32px;
       color: #000;
-      //   position: fixed;
-      //   width: 92%;
       margin-top: 20px;
+      position: sticky;
+      top: calc(20px + 28px + 40px); /* 根据 headerWrap 高度计算 */
+      z-index: 99; /* 确保层级 */
+      // 使用伪元素，给盒子上下各加一个高度为20px,背景色为灰色的盒子
+      &::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 0;
+        right: 0;
+        height: 20px;
+        background: #f1f1f1;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        height: 20px;
+        background: #f1f1f1;
+      }
 
       .topWrap,
       .bottomWrap {
@@ -65,82 +93,66 @@
       }
     }
 
-    .detailWrap {
-      margin-top: 20px;
-      background: #fff;
-      padding: 10px 30px 20px;
-      font-size: 28px;
-      color: #000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-      overflow: hidden; // 触发BFC
-      &:first-child {
-        // margin-top: 306px;
-      }
+    .scrollableList {
+      overflow-y: visible; /* 列表内容溢出可见 */
+      .detailWrap {
+        // margin-top: 20px;
+        background: #fff;
+        padding: 20px 30px;
+        font-size: 28px;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        overflow: hidden; /* 触发 BFC */
 
-      .leftWrap {
-        .topWrap {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 20px 0;
+        .leftWrap {
+          .topWrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
 
-          .left,
-          .right {
-            //   font-weight: 600;
-            font-size: 32px;
-          }
-        }
-
-        .bottomWrap {
-          color: #9d9d9d;
-
-          .oneLine {
-            width: 620px;
-            height: 30px;
-            line-height: 30px;
-            position: relative;
-            padding-bottom: 20px;
-
-            .left {
-              width: 510px;
-              position: absolute;
-              margin-right: 10px;
-              white-space: nowrap;
-              overflow: hidden;
-              text-overflow: ellipsis;
-            }
-
+            .left,
             .right {
-              position: absolute;
-              left: 190px;
-              width: 200px;
-              overflow: hidden;
+              font-size: 32px;
             }
           }
-          // .twoLine {
-          //     width: 620px;
-          //     display: flex;
-          //     padding-bottom: 10px;
-          //     .left {
-          //         margin-right: 10px;
-          //     }
-          //     .right{
-          //         width: 620px;
-          //     white-space: nowrap;
-          //     overflow: hidden;
-          //     text-overflow: ellipsis;
-          // }
-          // }
-        }
-      }
 
-      .rightWrap {
-        // width: 30px;
-        position: absolute;
-        right: 30px;
+          .bottomWrap {
+            color: #9d9d9d;
+
+            .oneLine {
+              width: 620px;
+              height: 30px;
+              line-height: 30px;
+              position: relative;
+              padding-bottom: 20px;
+
+              .left {
+                width: 510px;
+                position: absolute;
+                margin-right: 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+
+              .right {
+                position: absolute;
+                left: 190px;
+                width: 200px;
+                overflow: hidden;
+              }
+            }
+          }
+        }
+
+        .rightWrap {
+          position: absolute;
+          right: 30px;
+        }
       }
     }
   }

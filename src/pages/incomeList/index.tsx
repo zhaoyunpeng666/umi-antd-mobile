@@ -6,28 +6,25 @@ import {
 import styles from './index.less';
 import {
   ZYP_INCOME_LIST_2025,
-  ZYP_INCOME_LIST_2024,
-  ZYP_INCOME_LIST_2023,
-  ZYP_INCOME_LIST_2022,
+  // ZYP_INCOME_LIST_2024,
+  // ZYP_INCOME_LIST_2023,
+  // ZYP_INCOME_LIST_2022,
 } from './income';
 import { useMemo } from 'react';
 import maxDecimal from '@/utils/maxDecimal';
 
 const Income = () => {
-  // const [income, setIncome] = useState(null); // 收入合计
-  // const [declaredAmount, setDeclaredAmount] = useState(null); // 已申报税额合计
   const list = [
     ...ZYP_INCOME_LIST_2025,
-    ...ZYP_INCOME_LIST_2024,
-    ...ZYP_INCOME_LIST_2023,
-    ...ZYP_INCOME_LIST_2022,
+    // ...ZYP_INCOME_LIST_2024,
+    // ...ZYP_INCOME_LIST_2023,
+    // ...ZYP_INCOME_LIST_2022,
   ];
 
   // 收入合计
   const income = useMemo(() => {
     let total = 0;
     list?.forEach((item) => {
-      // if (isNaN(item.income)) {total += 0}
       total += item.income;
     });
     return maxDecimal(total, 2);
@@ -45,28 +42,32 @@ const Income = () => {
   return (
     <div className={styles.income}>
       <div className={styles.body}>
-        <div className={styles.headerWrap}>
-          <div className={styles.back}>
-            <LeftOutline />
-            <div>返回</div>
-          </div>
-          <div className={styles.center}>收入纳税明细</div>
-          <div className={styles.right}>批量申诉</div>
-        </div>
-        <div className={styles.totalWrap}>
-          <div className={styles.topWrap}>
-            <div className={styles.left}>
-              收入合计 &nbsp;
-              <QuestionCircleOutline color="#4f82d8" fontSize={16} /> ：
+        {/* 吸顶头部 */}
+        <div className={styles.stickyHeader}>
+          <div className={styles.headerWrap}>
+            <div className={styles.back}>
+              <LeftOutline />
+              <div>返回</div>
             </div>
-            <div className={styles.right}>{income}元</div>
+            <div className={styles.center}>收入纳税明细</div>
+            <div className={styles.right}>批量申诉</div>
           </div>
-          <div className={styles.bottomWrap}>
-            <div className={styles.left}>已申报税额合计：</div>
-            <div className={styles.right}>{declaredAmount}元</div>
+          <div className={styles.totalWrap}>
+            <div className={styles.topWrap}>
+              <div className={styles.left}>
+                收入合计 &nbsp;
+                <QuestionCircleOutline color="#4f82d8" fontSize={16} /> ：
+              </div>
+              <div className={styles.right}>{income}元</div>
+            </div>
+            <div className={styles.bottomWrap}>
+              <div className={styles.left}>已申报税额合计：</div>
+              <div className={styles.right}>{declaredAmount}元</div>
+            </div>
           </div>
         </div>
-        <div className={styles.contentWrap}>
+        {/* 可滚动列表 */}
+        <div className={styles.scrollableList}>
           {list?.map((item, index) => (
             <div className={styles.detailWrap} key={index}>
               <div className={styles.leftWrap}>
