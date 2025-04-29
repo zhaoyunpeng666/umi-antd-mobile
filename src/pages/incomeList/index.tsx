@@ -5,21 +5,41 @@ import {
 } from 'antd-mobile-icons';
 import styles from './index.less';
 import {
-  ZYP_INCOME_LIST_2025,
-  // ZYP_INCOME_LIST_2024,
+  // ZYP_INCOME_LIST_2025,
+  ZYP_INCOME_LIST_2024,
   // ZYP_INCOME_LIST_2023,
   // ZYP_INCOME_LIST_2022,
 } from './income';
-import { useMemo } from 'react';
+import {
+  useMemo,
+  // useState
+} from 'react';
 import maxDecimal from '@/utils/maxDecimal';
 
 const Income = () => {
+  // 显示
+  // const [visible, setVisible] = useState(false);
+
+  // 收入列表
   const list = [
-    ...ZYP_INCOME_LIST_2025,
-    // ...ZYP_INCOME_LIST_2024,
+    // ...ZYP_INCOME_LIST_2025,
+    ...ZYP_INCOME_LIST_2024,
     // ...ZYP_INCOME_LIST_2023,
     // ...ZYP_INCOME_LIST_2022,
   ];
+
+  // 全屏显示
+  // const openFullscreen = () => {
+  //   const elem = document.documentElement;
+  //   setVisible(true)  // 显示
+  //   if (elem.requestFullscreen) {
+  //     elem.requestFullscreen();
+  //   } else if ((elem as any).webkitRequestFullscreen) { /* Safari */
+  //     (elem as any).webkitRequestFullscreen();
+  //   } else if ((elem as any).msRequestFullscreen) { /* IE11 */
+  //     (elem as any).msRequestFullscreen();
+  //   }
+  // };
 
   // 收入合计
   const income = useMemo(() => {
@@ -51,6 +71,9 @@ const Income = () => {
             </div>
             <div className={styles.center}>收入纳税明细</div>
             <div className={styles.right}>批量申诉</div>
+            {/* {
+              visible ? null : (<div onClick={openFullscreen}>全屏</div>)
+            }    */}
           </div>
           <div className={styles.totalWrap}>
             <div className={styles.topWrap}>
