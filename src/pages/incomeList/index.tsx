@@ -5,8 +5,9 @@ import {
 } from 'antd-mobile-icons';
 import styles from './index.less';
 import {
+  ZYP_INCOME_LIST_2026,
   // ZYP_INCOME_LIST_2025,
-  ZYP_INCOME_LIST_2024,
+  // ZYP_INCOME_LIST_2024,
   // ZYP_INCOME_LIST_2023,
   // ZYP_INCOME_LIST_2022,
 } from './income';
@@ -22,8 +23,9 @@ const Income = () => {
 
   // 收入列表
   const list = [
+    ...ZYP_INCOME_LIST_2026,
     // ...ZYP_INCOME_LIST_2025,
-    ...ZYP_INCOME_LIST_2024,
+    // ...ZYP_INCOME_LIST_2024,
     // ...ZYP_INCOME_LIST_2023,
     // ...ZYP_INCOME_LIST_2022,
   ];
