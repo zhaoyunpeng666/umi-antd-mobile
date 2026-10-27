@@ -93,8 +93,8 @@ const Income = () => {
         </div>
         {/* 可滚动列表 */}
         <div className={styles.scrollableList}>
-          {list?.map((item, index) => (
-            <div className={styles.detailWrap} key={index}>
+          {list?.map((item) => (
+            <div className={styles.detailWrap} key={item.id}>
               <div className={styles.leftWrap}>
                 <div className={styles.topWrap}>
                   <div className={styles.left}>工资薪金 </div>

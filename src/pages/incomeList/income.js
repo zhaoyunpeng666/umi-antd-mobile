@@ -1,5 +1,14 @@
 export const ZYP_INCOME_LIST_2026 = [
   {
+    id: 61,
+    type: '正常工资薪金',
+    company: '柯信信息科技有限公司',
+    date: '2026-10',
+    income: 42500.0,
+    tax: 1154.57,
+  },
+  {
+    id: 60,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-10',
@@ -7,6 +16,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 59,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-09',
@@ -14,6 +24,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 58,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-08',
@@ -21,6 +32,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 57,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-07',
@@ -28,6 +40,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 56,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-06',
@@ -35,6 +48,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 55,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-05',
@@ -42,6 +56,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 54,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-04',
@@ -49,6 +64,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 1154.57,
   },
   {
+    id: 53,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-03',
@@ -56,6 +72,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 346.36,
   },
   {
+    id: 52,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-02',
@@ -63,6 +80,7 @@ export const ZYP_INCOME_LIST_2026 = [
     tax: 346.37,
   },
   {
+    id: 51,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2026-01',
@@ -73,6 +91,7 @@ export const ZYP_INCOME_LIST_2026 = [
 
 export const ZYP_INCOME_LIST_2025 = [
   {
+    id: 50,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-12',
@@ -80,6 +99,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 1154.56,
   },
   {
+    id: 49,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-11',
@@ -87,6 +107,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 1154.56,
   },
   {
+    id: 48,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-10',
@@ -94,6 +115,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 1125.43,
   },
   {
+    id: 47,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-09',
@@ -101,6 +123,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 346.37,
   },
   {
+    id: 46,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-08',
@@ -108,6 +131,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 346.37,
   },
   {
+    id: 45,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-07',
@@ -115,6 +139,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 345.18,
   },
   {
+    id: 44,
     type: '正常工资薪金',
     company: '柯信信息科技有限公司',
     date: '2025-06',
@@ -122,6 +147,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 29.6,
   },
   {
+    id: 43,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2025-04',
@@ -129,6 +155,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 242.96,
   },
   {
+    id: 42,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2025-03',
@@ -136,6 +163,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 239.96,
   },
   {
+    id: 41,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2025-02',
@@ -143,6 +171,7 @@ export const ZYP_INCOME_LIST_2025 = [
     tax: 237.7,
   },
   {
+    id: 40,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2025-01',
@@ -153,6 +182,7 @@ export const ZYP_INCOME_LIST_2025 = [
 
 export const ZYP_INCOME_LIST_2024 = [
   {
+    id: 39,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-12',
@@ -160,6 +190,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 815.85,
   },
   {
+    id: 38,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-11',
@@ -167,6 +198,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 944.17,
   },
   {
+    id: 37,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-10',
@@ -174,6 +206,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 736.86,
   },
   {
+    id: 36,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-09',
@@ -181,6 +214,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 822.35,
   },
   {
+    id: 35,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-08',
@@ -188,6 +222,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 807.36,
   },
   {
+    id: 34,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-07',
@@ -195,6 +230,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 812.36,
   },
   {
+    id: 33,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-06',
@@ -202,6 +238,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 809.85,
   },
   {
+    id: 32,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-05',
@@ -209,6 +246,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 518.46,
   },
   {
+    id: 31,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-04',
@@ -216,6 +254,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 242.96,
   },
   {
+    id: 30,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-03',
@@ -223,6 +262,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 239.96,
   },
   {
+    id: 29,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-02',
@@ -230,6 +270,7 @@ export const ZYP_INCOME_LIST_2024 = [
     tax: 238.76,
   },
   {
+    id: 28,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2024-01',
@@ -240,6 +281,7 @@ export const ZYP_INCOME_LIST_2024 = [
 
 export const ZYP_INCOME_LIST_2023 = [
   {
+    id: 27,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-12',
@@ -247,6 +289,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 815.85,
   },
   {
+    id: 26,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-11',
@@ -254,6 +297,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 944.17,
   },
   {
+    id: 25,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-10',
@@ -261,6 +305,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 736.86,
   },
   {
+    id: 24,
     type: '正常工资薪金',
     company: '中建三局集团有限公司',
     date: '2023-10',
@@ -268,6 +313,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 150.0,
   },
   {
+    id: 23,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-09',
@@ -275,6 +321,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 822.35,
   },
   {
+    id: 22,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-08',
@@ -282,6 +329,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 807.36,
   },
   {
+    id: 21,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-07',
@@ -289,6 +337,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 812.36,
   },
   {
+    id: 20,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-06',
@@ -296,6 +345,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 809.85,
   },
   {
+    id: 19,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-05',
@@ -303,6 +353,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 518.46,
   },
   {
+    id: 18,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-04',
@@ -310,6 +361,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 242.96,
   },
   {
+    id: 17,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-03',
@@ -317,6 +369,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 239.96,
   },
   {
+    id: 16,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-02',
@@ -324,6 +377,7 @@ export const ZYP_INCOME_LIST_2023 = [
     tax: 237.7,
   },
   {
+    id: 15,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2023-01',
@@ -334,6 +388,7 @@ export const ZYP_INCOME_LIST_2023 = [
 
 export const ZYP_INCOME_LIST_2022 = [
   {
+    id: 14,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-12',
@@ -341,6 +396,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 401.4,
   },
   {
+    id: 13,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-11',
@@ -348,6 +404,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 239.96,
   },
   {
+    id: 12,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-10',
@@ -355,6 +412,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 238.24,
   },
   {
+    id: 11,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-09',
@@ -362,6 +420,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 207.7,
   },
   {
+    id: 10,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-08',
@@ -369,6 +428,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 193.96,
   },
   {
+    id: 9,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-07',
@@ -376,6 +436,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 31.52,
   },
   {
+    id: 8,
     type: '正常工资薪金',
     company: '软通动力技术服务有限公司',
     date: '2022-06',
@@ -383,6 +444,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 0.0,
   },
   {
+    id: 7,
     type: '正常工资薪金',
     company: '湖北华付智创技术有限公司',
     date: '2022-06',
@@ -390,6 +452,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 0.0,
   },
   {
+    id: 6,
     type: '正常工资薪金',
     company: '广州市企微信息科技有限公司',
     date: '2022-05',
@@ -397,6 +460,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 0.0,
   },
   {
+    id: 5,
     type: '正常工资薪金',
     company: '软通动力技术服务有限公司',
     date: '2022-05',
@@ -404,6 +468,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 0.0,
   },
   {
+    id: 4,
     type: '正常工资薪金',
     company: '广州市企微信息科技有限公司',
     date: '2022-04',
@@ -411,6 +476,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 183.28,
   },
   {
+    id: 3,
     type: '正常工资薪金',
     company: '广州市企微信息科技有限公司',
     date: '2022-03',
@@ -418,6 +484,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 183.28,
   },
   {
+    id: 2,
     type: '正常工资薪金',
     company: '广州市企微信息科技有限公司',
     date: '2022-02',
@@ -425,6 +492,7 @@ export const ZYP_INCOME_LIST_2022 = [
     tax: 187.35,
   },
   {
+    id: 1,
     type: '正常工资薪金',
     company: '广州市企微信息科技有限公司',
     date: '2022-01',
